@@ -17,11 +17,15 @@ public class Student {
      */
     private String name;
     private int ID;
+    private String Program;
 
     public Student(String givenName, int givenID)
     {
         name=givenName;
         ID=givenID;
+    }
+    public void setProgram(String Program){
+        this.Program=Program;
     }
     /**
      * @return the name
