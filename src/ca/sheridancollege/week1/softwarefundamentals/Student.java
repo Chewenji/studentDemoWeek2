@@ -18,6 +18,15 @@ public class Student {
     private String name;
     private int ID;
     private String Program;
+    private int maxCourse;
+
+    public int getMaxCourse() {
+        return maxCourse;
+    }
+
+    public void setMaxCourse(int maxCourse) {
+        this.maxCourse = maxCourse;
+    }
 
     public Student(String givenName, int givenID)
     {
